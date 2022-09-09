@@ -1,0 +1,8 @@
+package com.library.manage;
+
+public class BookDao {
+	public static void insertBookToDB(books b) {
+		
+	}
+
+}

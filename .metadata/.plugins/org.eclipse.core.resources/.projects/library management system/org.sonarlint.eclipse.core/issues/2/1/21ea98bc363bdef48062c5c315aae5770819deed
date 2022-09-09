@@ -1,0 +1,38 @@
+
+
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æßã«ıÿÿÿÿ8ğù“š²0HTRBLOCKERZBUG
+k	java:S106O"9Replace this use of System.out or System.err by a logger.(è×•ç8ıß›²0HRMAJORZ
+CODE_SMELL
+l
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8£‹ºš²0HdRMAJORZ
+CODE_SMELL
+l
+java:S1141C"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8å½˜›²0HuRMAJORZ
+CODE_SMELL
+z
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¸ªóìıÿÿÿÿ8ÇÃÕ™²0HORBLOCKERZBUG
+l
+java:S1118	":Add a private constructor to hide the implicit public one.(é’°‘8¿ÌË™²0H3RMAJORZ
+CODE_SMELL
+k	java:S106M"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8ıß›²0HRMAJORZ
+CODE_SMELL
+z
+java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(¸ªóìıÿÿÿÿ8£‹ºš²0HfRBLOCKERZBUG
+p	java:S106P"9Replace this use of System.out or System.err by a logger.(«Ûƒùÿÿÿÿ8ıß›²0H‘RMAJORZ
+CODE_SMELL
+y
+java:S2095F"GUse try-with-resources or close this "Statement" in a "finally" clause.(òï¶úÿÿÿÿ8å½˜›²0HwRBLOCKERZBUG
+k	java:S106N"9Replace this use of System.out or System.err by a logger.(«‹Îõ8ıß›²0HRMAJORZ
+CODE_SMELL
+p	java:S106Q"9Replace this use of System.out or System.err by a logger.(ˆÕÒÊıÿÿÿÿ8ıß›²0H’RMAJORZ
+CODE_SMELL
+l
+java:S1141("5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8·ù™²0HPRMAJORZ
+CODE_SMELL
+
+java:S2095+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æßã«ıÿÿÿÿ8£‹ºš²0HgRBLOCKERZBUG
+z
+java:S2095)"HUse try-with-resources or close this "Connection" in a "finally" clause.(¸ªóìıÿÿÿÿ8å½˜›²0HxRBLOCKERZBUG
+s
+java:S1128";Remove this unused import 'com.mysql.cj.xdevapi.Statement'.(Î…¿Šøÿÿÿÿ8íˆê›²0HœRMINORZ
+CODE_SMELL

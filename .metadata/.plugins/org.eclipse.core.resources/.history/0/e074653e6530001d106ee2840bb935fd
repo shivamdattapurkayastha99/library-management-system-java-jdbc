@@ -1,0 +1,33 @@
+package com.library.manage;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class BookDao {
+	public static boolean insertBookToDB(books b) {
+		boolean flag=false;
+		
+		try {
+			try {
+				Connection con=CP.createC();
+				String q="insert into books(bname,bcopy,bfine) values(?,?,?)";
+				PreparedStatement pstmt=con.prepareStatement(q);
+				pstmt.setString(1, b.getBookName());
+				pstmt.setInt(2, b.getBookCopies());
+				pstmt.setInt(3, b.getBookFines());
+				pstmt.executeUpdate();
+				flag=true;
+				
+			} catch (Exception e) {
+				
+				e.printStackTrace();
+			}
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		return flag;
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.library.manage;
+
+import java.sql.Connection;
+
+public class BookDao {
+	public static void insertBookToDB(books b) {
+		
+		try {
+			try {
+				Connection con=CP.createC();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}
