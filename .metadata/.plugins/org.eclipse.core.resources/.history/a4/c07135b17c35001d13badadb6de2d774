@@ -15,7 +15,7 @@ public class Start {
 			logger.info("Enter 1 to deposit book");
 			logger.info("Enter 2 to take book");
 			logger.info("Enter 3 to display books");
-			logger.info("Enter 4 to exit");
+			logger.info("Enter 4 to deposit book");
 			int c = sc.nextInt();
 			if (c == 1) {
 				logger.info("Enter book name");
